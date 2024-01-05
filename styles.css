@@ -31,7 +31,7 @@ body {
   border-radius: 50px;
   margin-top: 1em;
   text-transform: uppercase;
-  font-weight: small;
+  font-weight: 400;
 }
 
 .btn-primary {
@@ -172,7 +172,7 @@ body {
   animation: about-text-animation 1s ease-in-out forwards;
 }
 
-@keydrames about-text-animation {
+@keyframes about-text-animation {
   100% {
     transform: translate(0);
   }
@@ -277,3 +277,37 @@ body {
   color: #666;
 }
 
+.food-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+
+.food-menu-container img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.food-menu-item {
+  display: flex;
+  flex: 1 1 600px;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.food-description {
+  margin: auto 1.5rem;
+}
+
+.font-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #444;
+}
+
+.food-description p {
+}
