@@ -1,5 +1,7 @@
+/* Google Font Link */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* Resetting */
 *,
 *::after,
 *::before {
@@ -8,22 +10,24 @@
   margin: 0;
 }
 
+/* Setting up the root font size */
 .html {
   font-size: 62.5%;
 }
 
+/* Setting up the body */
 body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Utility Classes */
-
+/* Setting up the container */
 .container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
 }
 
+/* Setting up the buttons */
 .btn {
   display: inline-block;
   padding: 0.5em 1.5em;
@@ -46,10 +50,9 @@ body {
   transition: background 0.3s ease-in-out;
 }
 
-/* ............/navbar/............ *
+/* Navbar */
 
-/* desktop mode............/// */
-
+/* Desktop Mode */
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
@@ -103,7 +106,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* ............//// Showcase styling ////......... */
+/* Showcase Styling */
 
 .showcase-area {
   height: 50vh;
@@ -129,7 +132,7 @@ body {
   margin-top: 1.5em;
 }
 
-/* ......//about us//...... */
+/* About Us */
 
 #about {
   padding: 50px 0;
@@ -192,7 +195,7 @@ body {
   object-position: right;
 }
 
-/* ..........////Food category///........... */
+/* Food Category */
 
 #food {
   padding: 5rem 0 10rem 0;
@@ -273,7 +276,7 @@ body {
   top: 40%;
 }
 
-/* .........../Food Menu/............ */
+/* Food Menu */
 
 .food-menu-heading {
   text-align: center;
