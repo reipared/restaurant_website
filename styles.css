@@ -328,7 +328,7 @@ body {
   font-weight: 700;
 }
 
-/* ........./ Testimonial /.......... */
+/* Testimonial */
 
 #testimonials {
   padding: 5rem 0;
@@ -373,7 +373,7 @@ body {
   margin: auto;
 }
 
-/* ........ Contact Us........... */
+/* Contact Us */
 
 #contact {
   padding: 5rem 0;
@@ -448,7 +448,7 @@ body {
   background: rgb(65, 65, 65);
 }
 
-/* ......../ media query /.......... */
+/* Media Queries */
 
 @media (max-width: 768px) {
   .navbar {
@@ -555,7 +555,7 @@ body {
     transform: rotate(-35deg);
   }
 
-  /* ......./ food /......... */
+  /* Food */
 
   .food-container {
     flex-direction: column;
